@@ -18,32 +18,60 @@
         <h1>Werewolf-XL</h1>
         <p>A Database for Identifying Spontaneous Affect in Large Competitive Group Interactions</p>
         <p>College of Computer Science and Technology , Zhejiang University</p>
-        <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub </a></p>
+        <footer>
+          <p>This project is maintained by <a href="http://github.com/orderedlist">Xinda Wu</a></p>
+          <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        </footer>
+
+        <!-- <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub </a></p>
 
         <ul>
           <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>Raw File</strong></a></li>
           <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>Features</strong></a></li>
           <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
-        </ul>
+        </ul> -->
       </header>
+
       <section>
+        <h1>Updating!!!</h1>
         <h1>Request Access</h1>
-        <p>Due to the maintenance and upgrade of our lab website, we temporarily host the information about the Werewolf-XL Database on Github</p>
-        <p>Currently, we have released 2 sessions of the werewolf recordings. We will release the rest of our database util the</p>
+            <p>To acquire access to the database: </p>
+              <ul>
+                <li>Please print the End User License Agreement (EULA, download <a href="">here</a>).</li>
+                <li>Sign it, and scan it.</li>
+                <li>Send a mail to <a href="zhangkejun@zju.edu.cn">zhangkejun@zju.edu.cn</a> and include the signed EULA as a pdf.</li>
+              </ul>
+            <p>
+              Please note, that any requests from free email addresses (hotmail, yahoo, gmail, etc.) will be refused. 
+              After submission of the form, it may take up to a week for you to receive the download link (you will receive a notification by email).
+            </p>
+            <p></p>
+            <p>
+              Due to the maintenance and upgrade of our lab website, we temporarily host the information about the Werewolf-XL Database on Github
+            </p>
 
         <h1>Introduction</h1>
         <p>
-          we created the “Werewolf-XL” database, which contains a total of 987 h of spontaneous audio-visual recordings of 129 subjects in a group interaction of nine individuals playing a conversational role-playing game called Werewolf. 
+          Existing databases usually record posed or induced human behavior in individual 
+          or dyadic settings with biased annotations in which a basic emotional class label or a Valence–Arousal pair value represents the emotional states. 
+          To address this need,We created the <b>“Werewolf-XL”</b> database, which contains a total of 987 h of spontaneous audio-visual recordings of 129 subjects in a group interaction of nine individuals playing a conversational role-playing game called Werewolf. 
           We provide 133,461 individual utterance-level video clips with internal (18 non-prototypical emotional categories) and external (pleasure, arousal, and dominance) emotion annotations including 14,635 samples from speaking players. 
           Besides, the results of annotation agreement analysis show fair reliability and validity. 
           Furthermore, we provided extensive benchmarks of unimodal and multimodal emotional recognition results. 
-          The database is made publicly available, which provides great opportunities for researchers in affective computing and beyond.
+          The database (the video clips, annotations, features and protocols) is made publicly available, which provides great opportunities for researchers in affective computing and beyond.
         </p>
+
+
+
         <h1>The Werewolf Game Rules</h1>
-        <p>The Werewolf rule of the database followed the visions of nine participants. 
-          The game was directed by a moderator, and each player was randomly assigned to a role either on the human’s side or on the werewolf’s side. 
-          The details of the various roles are listed in Table II. Furthermore, the Werewolf game rules are slightly different under different cultural background, we provide a simple game rules and videos from our real scene in our dataset1.</p>
-          <p>Our game proceeds in two alternating turns: (i) night turn and (ii) day turn; the game starts with night turn. 
+          <p>
+            The Werewolf rule of the database followed the visions of nine participants. 
+            The game was directed by a moderator, and each player was randomly assigned to a role either on the human’s side or on the werewolf’s side. 
+            The details of the various roles are listed in Table II. Furthermore, the Werewolf game rules are slightly different under different cultural background, we provide a simple game rules and videos from our real scene in our dataset1.
+          </p>
+          <img src="img/Table2.png" />  
+
+          <p>Our game proceeds in two alternating turns: 1) night turn and 2) day turn; the game starts with night turn. 
             Night turn requires all players to close their eyes in the beginning. 
             The moderator wakes up players in the order of werewolf, seer, and witch to perform their operations; after their operations, they need to close their eyes again. The hunter is awakened last and told whether he/she was murdered by others. 
             Then, the day turn starts, and all players open their eyes.On the first day, a sheriff needs to be elected; 
@@ -54,26 +82,42 @@
              The living players take turns to guess who the werewolves are or to rebut others’ opinions and decide who should be lynched by voting. 
              When one player speaks, other players are not allowed to interrupt. 
              In addition, the players who died in the first night and the other players who were lynched can make a last statement before stepping into the next night turn. 
-             The game ends when one of the following three situations occurs: (i) the werewolves kill all villagers (i.e., the werewolf side wins), (ii) all roles are eliminated except those of the villagers 
-             and werewolves (i.e., the werewolf side wins), or (iii) all werewolves are wiped out (the human side wins).
+             The game ends when one of the following three situations occurs: 
+             <ul>
+              <li>(i) the werewolves kill all villagers (i.e., the werewolf side wins)</li>
+              <li>(ii) all roles are eliminated except those of the villagers and werewolves (i.e., the werewolf side wins)</li>
+              <li>(iii) all werewolves are wiped out (the human side wins)</li>
+             </ul>
+             
             </p>
+
+
+
         <h1>Credits</h1>
         <p>First and foremost we'd like to thank the 129 participants in this study for having the patience and goodwill to let us record their data.
           This dataset was collected by a crack squad of dedicated researchers:</p>
           <ul>
             <li><a href="https://person.zju.edu.cn/zhangkejun">Kejun Zhang</a>, College of Computer Science and Technology, Zhejiang University, China</li>
-            <li><a href="https://xinda-wu.github.io/">Xinda Wu</a>，College of Computer Science and Technology, Zhejiang University, China</li>
-            <li>Xinghang Xie，College of Computer Science and Technology, Zhejiang University, China</li>
-            <li>Xiaoran Zhang，College of Computer Science and Technology, Zhejiang University, China</li>
-            <li>Hui Zhang，College of Computer Science and Technology, Zhejiang University, China</li>
-            <li>Xiaoyu Chen，College of Computer Science and Technology, Zhejiang University, China</li>
+            <li><a href="wuxinda@zju.edu.cn">Xinda Wu</a>，College of Computer Science and Technology, Zhejiang University, China</li>
+            <li><a href="3130104468@zju.edu.cn">Xinghang Xie</a>，College of Computer Science and Technology, Zhejiang University, China</li>
+            <li><a href="12021204@zju.edu.cn">Xiaoran Zhang</a>，College of Computer Science and Technology, Zhejiang University, China</li>
+            <li><a href="huiz@zju.edu.cn">Hui Zhang</a>，College of Computer Science and Technology, Zhejiang University, China</li>
+            <li><a href="rainchard@zju.edu.cn">Xiaoyu Chen</a>，College of Computer Science and Technology, Zhejiang University, China</li>
             <li><a href="https://person.zju.edu.cn/zhangkejun">Lingyun Sun</a>,College of Computer Science and Technology, Zhejiang University, China</li>
           </ul>
-        <p>This work was supported by the Key Project of Na-tional Science Foundation of Zhejiang Province (No. LZ19F020002), 
-          the National Natural Science Founda-tion of China (No. 61672451), 
-          Provincial Key Re-search and Development Plan of Zhejiang Province (No. 2019C03137). 
+        <p>This work was supported by : </p>
+          <ul>
+            <li>the Key Project of Na-tional Science Foundation of Zhejiang Province (No. LZ19F020002)</li>
+            <li>the National Natural Science Founda-tion of China (No. 61672451) </li>
+            <li>Provincial Key Re-search and Development Plan of Zhejiang Province (No. 2019C03137) </li>
+          </ul>
+        <p>
           We would like to thank the Key Laboratory of Design Intelligence and Digital Crea-tivity of Zhejiang Province, Alibaba-Zhejiang Uni-versity Joint Institute of Frontier Technologies and State Key Lab of CAD&CG.
         </p>
+          
+          
+          
+       
         
           
 
