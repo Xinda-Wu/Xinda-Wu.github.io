@@ -1,9 +1,68 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color:#595959;
+  /* font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
   font-weight:400;
+}
+.seal_img{
+  transform:translateX(-4px);
+  width:236px;
+  height: 236px;
+}
+
+.title a {
+  color: #111;
+}
+
+.job-title {
+  margin: 0 0 5px;
+}
+
+p.job-title,p.affiliation{
+  color: #333333;
+}
+
+
+
+.icon-text{
+  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.icon-style{
+  transform:translateY(1px);
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+}
+
+footer hr {
+  margin: 15px 0 0;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background: #e5e5e5;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+}
+
+small {
+  font-size: 11px;
+}
+
+
+
+.subpage-links{
+  margin: 0 0 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
